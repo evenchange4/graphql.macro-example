@@ -3419,9 +3419,9 @@ graphql-tag@2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.6.1.tgz#4788d509f6e29607d947fc47a40c4e18f736d34a"
 
-graphql.macro@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/graphql.macro/-/graphql.macro-0.1.0.tgz#e7956d3ba464a0d53c732d7ee83e6c7c25231f26"
+graphql.macro@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/graphql.macro/-/graphql.macro-1.0.0.tgz#d3f64763ba586be0fd85ebfb727527a2dc201d8a"
   dependencies:
     babel-literal-to-ast "2.0.0"
     babel-plugin-macros "2.0.0"
