@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { graphql } from 'react-apollo';
-import { gql, loader } from 'graphql.macro';
+import { loader } from 'graphql.macro';
 import logo from './logo.svg';
 import './App.css';
 
