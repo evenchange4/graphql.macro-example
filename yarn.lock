@@ -735,7 +735,7 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-apollo-cache-inmemory@^1.1.5:
+apollo-cache-inmemory@1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/apollo-cache-inmemory/-/apollo-cache-inmemory-1.1.5.tgz#74111367fd59caee120197ef663dcb2516971300"
   dependencies:
@@ -749,7 +749,7 @@ apollo-cache@^1.1.0:
   dependencies:
     apollo-utilities "^1.0.4"
 
-apollo-client@^2.2.0:
+apollo-client@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-2.2.0.tgz#e22c4ba3a3c01aec6dc916a5dbc0f39c58d277fb"
   dependencies:
@@ -769,7 +769,7 @@ apollo-link-dedup@^1.0.0:
   dependencies:
     apollo-link "^1.0.7"
 
-apollo-link-http@^1.3.2:
+apollo-link-http@1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/apollo-link-http/-/apollo-link-http-1.3.2.tgz#63537ee5ecf9c004efb0317f1222b7dbc6f21559"
   dependencies:
@@ -3419,7 +3419,7 @@ graphql-tag@2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.6.1.tgz#4788d509f6e29607d947fc47a40c4e18f736d34a"
 
-graphql.macro@^0.1.0:
+graphql.macro@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/graphql.macro/-/graphql.macro-0.1.0.tgz#e7956d3ba464a0d53c732d7ee83e6c7c25231f26"
   dependencies:
@@ -3427,7 +3427,7 @@ graphql.macro@^0.1.0:
     babel-plugin-macros "2.0.0"
     graphql-tag "2.6.1"
 
-graphql@^0.12.3:
+graphql@0.12.3:
   version "0.12.3"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.12.3.tgz#11668458bbe28261c0dcb6e265f515ba79f6ce07"
   dependencies:
@@ -6216,7 +6216,7 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-apollo@^2.0.4:
+react-apollo@2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-2.0.4.tgz#01dd32a8e388672f5d7385b21cdd0b94009ee9ee"
   dependencies:
@@ -6252,7 +6252,7 @@ react-dev-utils@6.0.0-next.9754a231:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@^16.2.0:
+react-dom@16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.2.0.tgz#69003178601c0ca19b709b33a83369fe6124c044"
   dependencies:
@@ -6314,7 +6314,7 @@ react-scripts@next:
   optionalDependencies:
     fsevents "1.1.3"
 
-react@^16.2.0:
+react@16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
   dependencies:
