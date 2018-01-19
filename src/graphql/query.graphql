@@ -1,0 +1,7 @@
+#import "./fragment.graphql"
+query todos {
+  todos {
+    id
+    ...TodoFragment
+  }
+}

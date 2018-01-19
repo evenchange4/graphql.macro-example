@@ -1,0 +1,4 @@
+fragment TodoFragment on Todo {
+  completed
+  title
+}
