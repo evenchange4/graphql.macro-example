@@ -1069,7 +1069,7 @@ babel-jest@22.1.0, babel-jest@^22.1.0:
     babel-plugin-istanbul "^4.1.5"
     babel-preset-jest "^22.1.0"
 
-babel-literal-to-ast@2.0.0:
+babel-literal-to-ast@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/babel-literal-to-ast/-/babel-literal-to-ast-2.0.0.tgz#d39460e7e8aa7d24c0c0817e09fb9931e8cee940"
   dependencies:
@@ -1103,7 +1103,7 @@ babel-plugin-jest-hoist@^22.1.0:
   version "22.1.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-22.1.0.tgz#c1281dd7887d77a1711dc760468c3b8285dde9ee"
 
-babel-plugin-macros@2.0.0:
+babel-plugin-macros@2.0.0, babel-plugin-macros@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-macros/-/babel-plugin-macros-2.0.0.tgz#fd3aee135f7dec0b82898b7c8f1aed6fa75f9af9"
   dependencies:
@@ -3415,17 +3415,17 @@ graphql-anywhere@^4.1.1:
   dependencies:
     apollo-utilities "^1.0.4"
 
-graphql-tag@2.6.1:
+graphql-tag@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.6.1.tgz#4788d509f6e29607d947fc47a40c4e18f736d34a"
 
-graphql.macro@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/graphql.macro/-/graphql.macro-1.0.0.tgz#d3f64763ba586be0fd85ebfb727527a2dc201d8a"
+graphql.macro@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/graphql.macro/-/graphql.macro-1.0.2.tgz#835d009ce004248a4daaed3813bd6298177b1b53"
   dependencies:
-    babel-literal-to-ast "2.0.0"
-    babel-plugin-macros "2.0.0"
-    graphql-tag "2.6.1"
+    babel-literal-to-ast "^2.0.0"
+    babel-plugin-macros "^2.0.0"
+    graphql-tag "^2.6.1"
 
 graphql@0.12.3:
   version "0.12.3"
