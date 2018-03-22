@@ -1,10 +1,24 @@
 import React, { Component } from 'react';
 import { graphql } from 'react-apollo';
-import { loader } from 'graphql.macro';
+import { gql } from 'graphql.macro';
 import logo from './logo.svg';
 import './App.css';
 
-const query = loader('./graphql/query.graphql');
+const fragment = gql`
+  fragment TodoFragment on Todo {
+    completed
+    title
+  }
+`;
+const query = gql`
+  query todos {
+    todos {
+      id
+      ...TodoFragment
+    }
+  }
+  ${fragment}
+`;
 
 class App extends Component {
   render() {
